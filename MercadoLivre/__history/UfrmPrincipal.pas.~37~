@@ -97,7 +97,7 @@ begin
         if rect_barra.Margins.Right <= 0 then
           rect_barra.Margins.Right := rect_fundo.Width;
 
-        Sleep(150);
+        Sleep(10);
 
         TThread.Synchronize(nil, procedure
         begin
@@ -142,7 +142,6 @@ begin
           showMessage('Compra realizada com sucesso');
           Self.LoadingCompra(False);
         end);
-
       end;
   end).Start;
 end;

@@ -196,6 +196,7 @@ object frmPrincipal: TfrmPrincipal
         Size.Width = 310.000000000000000000
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
+        Visible = False
         TabOrder = 5
         object Rectangle1: TRectangle
           Align = Client

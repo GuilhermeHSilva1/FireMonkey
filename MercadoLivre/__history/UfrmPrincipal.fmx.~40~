@@ -236,7 +236,7 @@ object frmPrincipal: TfrmPrincipal
         Margins.Right = 20.000000000000000000
         Margins.Bottom = 60.000000000000000000
         Position.X = 20.000000000000000000
-        Position.Y = 243.000000000000000000
+        Position.Y = 303.000000000000000000
         Size.Width = 310.000000000000000000
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False

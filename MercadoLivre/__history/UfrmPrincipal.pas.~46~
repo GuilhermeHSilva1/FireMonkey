@@ -97,7 +97,7 @@ begin
         if rect_barra.Margins.Right <= 0 then
           rect_barra.Margins.Right := rect_fundo.Width;
 
-        Sleep(150);
+        Sleep(14);
 
         TThread.Synchronize(nil, procedure
         begin
